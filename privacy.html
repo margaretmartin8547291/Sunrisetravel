@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Sunrise Travel Agency</title>
+  <meta name="description" content="Sunrise Travel Agency Privacy Policy: how we collect, use, and protect your information." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://dummyimage.com/48x48/ff7f00/ffffff.png&text=S" alt="Sunrise logo" width="48" height="48" />
+        <span class="brand-name">Sunrise Travel Agency</span>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="./index.html#packages">Packages</a></li>
+          <li><a href="./index.html#contact">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn-primary" href="tel:+18775152134">Call (877) 515-2134</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      <p>Effective Date: <strong><span id="effective"></span></strong></p>
+
+      <h2>Overview</h2>
+      <p>We respect your privacy. This policy explains what information we collect, how we use it, and your choices. We comply with applicable advertising policies, including Google Ads policies regarding transparency and user data.</p>
+
+      <h2>Information We Collect</h2>
+      <ul>
+        <li>Contact information (name, email, phone) when you request quotes or bookings.</li>
+        <li>Trip preferences you share to build itineraries.</li>
+        <li>Minimal technical data (browser type, pages viewed) to improve our site.</li>
+      </ul>
+
+      <h2>How We Use Information</h2>
+      <ul>
+        <li>Provide and manage travel planning and bookings.</li>
+        <li>Respond to inquiries and customer support.</li>
+        <li>Improve our services and website. We do not sell personal data.</li>
+      </ul>
+
+      <h2>Cookies and Consent</h2>
+      <p>Our site uses essential cookies for functionality. We do not use advertising cookies or tracking pixels without consent. If we enable analytics or advertising features, we will request consent and offer opt-out options.</p>
+
+      <h2>Sharing</h2>
+      <p>We may share necessary details with travel suppliers solely to fulfill your bookings. We do not share personal information with third parties for their marketing purposes.</p>
+
+      <h2>Your Rights</h2>
+      <p>You may access, correct, or delete your personal data. To exercise rights, contact us at <a href="mailto:privacy@sunrisetravel.example">privacy@sunrisetravel.example</a> or call <a href="tel:+18775152134">(877) 515-2134</a>.</p>
+
+      <h2>Data Security</h2>
+      <p>We use reasonable safeguards to protect your information. No method of transmission is 100% secure, but we strive to protect your data.</p>
+
+      <h2>Policy Updates</h2>
+      <p>We may update this policy. Significant changes will be posted on this page with a new effective date.</p>
+
+      <p><a href="./index.html">Back to Home</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Sunrise Travel Agency</p>
+      <nav>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('effective').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
